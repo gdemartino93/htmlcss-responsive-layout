@@ -52,6 +52,19 @@ ul{
     display: flex;
     list-style: none;
 }
+@media screen and (max-width:768px) {
+    nav>ul{
+        display: none;
+    }
+    .card-big{
+        flex-direction: column;
+        height: 100%;
+    }
+    .card{
+        height: 100%;
+    }
+    
+}
 .features{
     margin-top: 100px;
     display: flex;
@@ -64,20 +77,18 @@ ul{
     margin: 10px;
     border-radius: 20px;
     /* deb */
-    background-color:#BBDBFC;
     height: 300px;
+    background-color:#BBDBFC;
 }
 .card-big-txt{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 50%;
-    height: 300px;
     padding: 20px;
 }
 .card-big-img{
     width: 50%;
-    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -87,7 +98,6 @@ ul{
 }
 .card{
     background: #BBDBFC;
-    height: 300px;
     width: calc(100% / 3 - 20px);
     display: flex;
     flex-direction: column;
@@ -96,9 +106,15 @@ ul{
     text-align: center;
     margin: 10px;
     border-radius: 20px;
+    height: 300px;
 }
 .card>i{
     color: #3C81F4;
     font-size: 70px;
-
+}
+.features p{
+    margin: 0 20px;
+}
+.card-big-txt>h3,a{
+    margin: 0 20px;
 }
