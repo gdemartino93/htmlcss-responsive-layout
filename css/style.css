@@ -210,4 +210,26 @@ ul{
     .features{
         font-size: 1.2rem;
     }
+    .container-violet{
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+     gap: 0;
+    }
+    .planning-card{
+        width: 90%;
+    }
+    .planning-card-big{
+        width: 100%;
+        padding: 20px;
+    }
+    .planning-card-big-foto>img{
+        width: 100%;
+    }
+    .container-planning-card{
+        width: 100%;
+    }
+    .planning-card-big-title{
+        font-size: 30px;
+    }
 }
