@@ -64,6 +64,12 @@ li>a{
     padding: 15px;
     color: white;
 }
+li>i{
+    color: white;
+    font-size: 20px;
+    display: none;
+    visibility:hidden ;
+}
 ul{
     display: flex;
     list-style: none;
@@ -197,8 +203,9 @@ ul{
     margin-top: 100px;
     text-align: center;
     line-height: 30px;
-    /* deb */
-    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+   
 }
 .benefits>h2{
     font-size: 45px;
@@ -293,5 +300,20 @@ ul{
     }
     .planning-card-foto>img{
         width: 100%;
+    }
+    .benefits.container{
+        width: 100%;
+    }
+    .benefits.container>p{
+        margin: 0 20px;
+    }
+    .benefits>h2{
+        margin: 30px 20px;
+    }
+    .card-benefits{
+        width: 90%;
+        margin-left:20px;
+        margin-right: 20px;
+        align-self: center;
     }
 }
