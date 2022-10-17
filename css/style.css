@@ -2,7 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
+h3{
+    color:#3C81F4 ;
+}
+.btn {
+    padding: 5px 10px;
+    color:black;
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    background:white;
+  }
+  .btn.appstore{
+    background: #3C81F4;
+    color: white;
+    text-align: center;
+    letter-spacing: 4px;
+    width: 200px;
+  }
+
 header{
     background-color: #3C81F4;
     width: 100%;
@@ -14,7 +35,7 @@ header{
     align-items: center;
 }
 .container{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -23,8 +44,61 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-ul>a{
-    padding: 10px;
-    text-decoration: none;
+li>a{
+    padding: 15px;
     color: white;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.features{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    color: grey;
+}
+.card-big{
+    width: calc((100% / 3) * 2 - 30px);
+    display: flex;
+    margin: 10px;
+    border-radius: 20px;
+    /* deb */
+    background-color:#BBDBFC;
+    height: 300px;
+}
+.card-big-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 300px;
+    padding: 20px;
+}
+.card-big-img{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.card-big-img>img{
+    height: 90%;
+}
+.card{
+    background: #BBDBFC;
+    height: 300px;
+    width: calc(100% / 3 - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+}
+.card>i{
+    color: #3C81F4;
+    font-size: 70px;
+
 }
