@@ -16,6 +16,12 @@ h3{
     border-bottom-right-radius:28px;
     background:white;
   }
+  .circle{
+    padding: 5px 10px;
+    color: black;
+    background: #9593E6;
+    border-radius: 50%;
+  }
   .btn.appstore{
     background: #3C81F4;
     color: white;
@@ -45,9 +51,8 @@ header{
     width: 60%;
     margin: 0 auto;
     max-width: 1200px;
-    /* deb */
-    background-color: yellow;
-    min-height: 500px;
+    display: flex;
+
 }
 
 nav{
@@ -74,10 +79,9 @@ ul{
 .card{
     width: calc(100% / 3 - 20px);
     margin: 10px;
-    /* deb */
     background-color: #BBDBFC;
     border-radius: 28px 28px 28px 28px;
-    padding: 10px 10px;
+    padding: 0 10px;
     
 }
 .card.big{
@@ -94,7 +98,6 @@ ul{
 .card-img{
     width: 50%;
     height: 80%;
-    /* debug */
     height: 300px;
     position: relative;
 }
@@ -122,16 +125,75 @@ ul{
 
 .violetsection{
     width: 100%;
-    background-color:#9591DD;
-    /* debug */
-    min-height: 500px;
+    background-color:#9593E6;
 }
 
 .planning-card-big{
-    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
-
-
+.planning-card-big-foto{
+    width: 100%;
+    height: 40%;
+    margin: 50px 0;
+}
+.planning-card-big-foto>img{
+    height: 100%;
+}
+.planning-card-big-title{
+    width: 100%;
+    margin: 20px 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.planning-card-big-text{
+    width: 100%;
+    height: 30%;
+    color: white;
+}
+.planning-card{
+   
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* align-items: center; */
+}
+.container-planning-card{
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+}
+.container-planning-card i{
+    font-size: 40px;
+    border-radius: 50%;
+    background-color: #9593E6;
+    color: black;
+}
+.planning-card-foto{
+    height: 40%;
+}
+.planning-card-foto>img{
+    height: 100%;
+}
+.planning-card-title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.planning-card-txt{
+    font-style: italic;
+}
 @media screen and (max-width:768px){
     nav>ul{
         display: none;
