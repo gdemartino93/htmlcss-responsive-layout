@@ -39,8 +39,15 @@
     margin-top: 20px;
   }
   .btn.violet.aboutus{
-    width: 60%;
+    width: 70%;
     font-size: 17px;
+  }
+  .btn.pricing{
+    padding: 20px 60px;
+    color: #9593E6;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 5px;
   }
 header{
     background-color: #3C81F4;
@@ -260,7 +267,7 @@ ul{
 .benefits>h2{
     text-align: center;
 }
-.violetsection>h2{
+.violetsection h2{
     text-align: center;
     color: white;
     font-size: 45px;
@@ -330,7 +337,7 @@ ul{
 }
 .imgposition>i{
     color: #918EDC;
-    font-size: 80px;
+    font-size: 4rem;
     position: absolute;
     top: 0;
     right: 50px;
@@ -340,8 +347,51 @@ ul{
     padding: 30px 0;
     line-height: 30px;
 }
-
-@media screen and (max-width:768px){
+.pricing{
+    margin-top: 40px;
+    align-items: center;
+    color: white;
+}
+#free{
+    color: #F3C26F;
+    font-size: 80px;
+    font-weight: bold;
+}
+.pricing span:first-child{
+    color: #D0CFEF;
+    margin-top: 50px;
+}
+.pricing span:last-child{
+    margin: 15px 0 50px 0;
+}
+#pricing-description{
+    width: 50%;
+    margin-top: 20px;
+}
+.pricing a{
+    color: white;
+    text-decoration: none;
+}
+.pricing a:last-child:hover{
+    text-decoration: underline;
+}
+footer{
+    background: #363636;
+    width: 100%;
+}
+.footer{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.footer span:last-child{
+    margin: 50px 0;
+}
+.footer a{
+    text-decoration: none;
+    color: #918EDC;
+}
+@media screen and (max-width:811px){
     nav>ul{
         display: none;
     }
@@ -360,7 +410,7 @@ ul{
     .container-violet{
      flex-direction: column;
      align-items: center;
-     width: 100%;
+     width: 90%;
      gap: 0;
     }
    .circle{
