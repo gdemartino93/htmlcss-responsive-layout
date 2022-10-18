@@ -249,6 +249,7 @@ ul{
     min-height: 200px;
     border-radius: 50%;
     margin: 20px 0;
+    object-fit: cover;
 }
 .card-partners-txt{
     width: 70%;
@@ -383,6 +384,7 @@ footer{
     color: white;
     text-align: center;
     padding-top: 50px;
+    width: 40%;
 }
 .footer span:last-child{
     margin: 50px 0;
@@ -487,5 +489,68 @@ footer{
     .imgposition>i{
         font-size: 60px;
         right: 30px;
+    }
+}
+@media screen and (max-width:480px) {
+    .container{
+        width: 95%;
+    }
+    .card.big{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    .partners{
+        margin-top: 20px;
+    }
+    .partners>h2{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+    .card-partners-foto{
+        width: 50%;
+    }
+    .card-partners{
+        flex-direction: column;
+    }
+    .card-partners-txt{
+        width: 60%;
+    }
+    .card-partners-txt>span{
+        justify-content: center;
+    }
+    .card.benefits{
+        width: 100%;
+    }
+    .container.aboutus{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutussx{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .aboutusdx{
+        width: 90%;
+    }
+    .btn.violet.aboutus{
+        width: 50%;
+    }
+    .imgposition>img{
+        width: 50%;
+    }
+    .imgposition>i{
+        font-size: 5rem;
+        right: 200px;
+    }
+    .violetsection>h2{
+        font-size: 2rem;
+    }
+    #pricing-description{
+        width: 80%;
+    }
+    .btn.pricing{
+        margin-bottom: 30px;
     }
 }
