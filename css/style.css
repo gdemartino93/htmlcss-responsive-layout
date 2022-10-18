@@ -35,9 +35,12 @@
     color: white;
     text-align: center;
     width: 150px;
-    font-weight: bold;
     padding: 10px 10px;
     margin-top: 20px;
+  }
+  .btn.violet.aboutus{
+    width: 60%;
+    font-size: 17px;
   }
 header{
     background-color: #3C81F4;
@@ -63,7 +66,10 @@ header{
     max-width: 1200px;
     display: flex;
 }
-
+.flexc{
+    display: flex;
+    flex-direction: column; 
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -165,7 +171,6 @@ ul{
     color: white;
 }
 .planning-card{
-   
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -266,6 +271,9 @@ ul{
     padding: 30px;
     height: 100%;
 }
+.card.benefits:last-child{
+    margin-bottom: 80px;
+}
 .card-benefits-container{
     width: 100%;
     height: 60%;
@@ -290,6 +298,49 @@ ul{
     color: grey;
     font-size: 20px;
 }
+.aboutussx>h2{
+    color: #9593E6;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+.aboutus{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutussx{
+    width: 70%;
+    line-height:30px;
+}
+.aboutusdx{
+    width: 25%;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.aboutussx>p:last-child{
+    margin-top: 50px;
+}
+.imgposition>img{
+    border-radius: 50%;
+    width: 80%;
+}
+.imgposition{
+    position: relative;
+}
+.imgposition>i{
+    color: #918EDC;
+    font-size: 80px;
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+.aboutusdx h3{
+    color: #918EDC;
+    padding: 30px 0;
+    line-height: 30px;
+}
+
 @media screen and (max-width:768px){
     nav>ul{
         display: none;
@@ -367,5 +418,24 @@ ul{
     }
     .card-benefits-container>h3{
         font-size: 1.5rem;
+    }
+    .container.aboutus{
+        width: 100%;
+    }
+    .aboutussx{
+        width: 50%;
+    }
+    .aboutus{
+        justify-content: space-evenly;
+    }
+    .aboutusdx{
+        justify-content: flex-start;
+    }
+    .btn.violet.aboutus{
+        width: 100%;
+    }
+    .imgposition>i{
+        font-size: 60px;
+        right: 30px;
     }
 }
