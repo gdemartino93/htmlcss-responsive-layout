@@ -422,41 +422,17 @@ footer{
     background-color: rgba(91, 91, 80, 0.25);
     color: black;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* tablet queries */
+
+@media screen and (min-width: 811px) and (max-width:1200px){
+    .container{
+        width: 90%;
+    }
+    .container-violet{
+        width: 90%;
+    }
+}
+
 @media screen and (max-width:811px){
     nav>ul{
         display: none;
@@ -559,6 +535,18 @@ footer{
     }
     .dropdown{
         display: block;
+    }
+}
+
+
+@media screen and (min-width:480px) and (max-width:811px){
+    .container{
+        width: 70%;
+        min-width: 480px;
+    }
+    .container-violet{
+        width: 70%;
+        min-width: 480px;
     }
 }
 /* mobile queries */
