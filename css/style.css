@@ -96,7 +96,11 @@ ul{
     display: flex;
     list-style: none;
 }
-
+.hamburger-menu{
+    display: none;
+    color: white;
+    font-size: 20px;
+}
 .features{
     margin-top: 100px;
     display: flex;
@@ -393,9 +397,13 @@ footer{
     text-decoration: none;
     color: #918EDC;
 }
+/* tablet queries */
 @media screen and (max-width:811px){
     nav>ul{
         display: none;
+    }
+    .hamburger-menu{
+        display: block;
     }
     .card.big{
         flex-direction: column;
@@ -491,6 +499,7 @@ footer{
         right: 30px;
     }
 }
+/* mobile queries */
 @media screen and (max-width:480px) {
     .container{
         width: 95%;
