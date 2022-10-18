@@ -538,15 +538,17 @@ footer{
     }
 }
 
-
-@media screen and (min-width:480px) and (max-width:811px){
+@media screen and (min-width:481px) and (max-width:810px){
     .container{
-        width: 70%;
+        width: 90%;
         min-width: 480px;
     }
     .container-violet{
-        width: 70%;
+        width: 90%;
         min-width: 480px;
+    }
+    .card-title{
+        font-size: 1rem;
     }
 }
 /* mobile queries */
