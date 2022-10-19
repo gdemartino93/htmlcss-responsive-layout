@@ -397,7 +397,7 @@ footer{
     display: none;
   }
   .dropdown-content {
-    background:rgba(91, 91, 80, 0.25);
+    background:#3C81F4;
     display: none;
     position: absolute;
     right: -40px;
