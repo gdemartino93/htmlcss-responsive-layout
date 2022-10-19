@@ -400,10 +400,9 @@ footer{
     background:rgba(91, 91, 80, 0.25);
     display: none;
     position: absolute;
-    right: 0;
+    right: -40px;
     min-width: 160px;
     z-index: 1;
-    left: 0;
   }
   .dropdown-content a {
     color: black;
