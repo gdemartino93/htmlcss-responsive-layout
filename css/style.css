@@ -126,15 +126,14 @@ ul{
     padding: 0 10px;
 }
 .card-img{
-    width: 50%;
-    height: 80%;
-    height: 300px;
-    position: relative;
+    max-height: 300px;
+    display: flex;
+    align-self: flex-end;
+
 }
 .card-img>img{
-    height: 80%;
-    position: absolute;
-    bottom: 0;
+    width: 100%;
+  
 }
 .card-ico{
     font-size: 50px;
@@ -444,6 +443,9 @@ footer{
         flex-direction: column;
         justify-content: space-evenly;
     }
+    .card-img{
+        margin-top: 30px;
+    }
     .card-txt{
         width: 100%;
         gap: 20px;
@@ -561,6 +563,9 @@ footer{
     }
     .card{
         width: 100%;
+    }
+    .card-img{
+        margin-top: 30px;
     }
     .partners{
         margin-top: 20px;
